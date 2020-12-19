@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios Prácticos N°3-2</title>
+</head>
+<body>
+    <script>
+        //1 
+        /*Algoritmo--> es un conjunto de instrucciones o reglas definidas sin ambiguedad, ordenadas y finitas que permite solucionar un problema. En programación una secuencia de pasos lógicos para arribar a una solución.
+        Ej( algoritmo de multiplicación)
+        */
+        //2 
+        /*Pseudocódigo-->es una forma de escribir los pasos que va a realizar un programa de la forma más cercana al lenguaje de programación que vamos a utilizar posteriormente.
+        Ej(
+        InicioPrimerPrograma
+        Escribir "Hola Mundo"
+        FinPrimerPrograma)
+        */
+        //3 a
+        var base=15;
+        var altura=5;
+        var supRectangulo = base * altura;
+        console.log(supRectangulo);
+        
+        var base=10;
+        var altura=20;
+        var supTriangulo = (base * altura)/2;
+        console.log(supTriangulo);
+
+        const pi = Math.PI;
+        var radio=20;
+        var supCirculo = pi * Math.pow(radio,2);
+        console.log(supCirculo);
+        //3 b
+        var num1 = 5
+        var num2 = 11
+        var num3 = 4
+        console.log(num1*num2*num3);
+        console.log(num1+num2+num3);
+        var promedio = ((num1+num2+num3)/3);
+        console.log(promedio);
+        //3 c
+        var uno = 'zapatillas';
+        var $uno = 3000;
+        var dos = 'medias';
+        var $dos = 280;
+        var tres = 'pantalón';
+        var $tres = 2500;
+        var cuatro = 'remera';
+        var $cuatro = 1890;
+        var cinco = 'cinturón';
+        var $cinco = 780;
+        var total = ($uno + $dos + $tres + $cuatro + $cinco);
+        var descuento = (total*15)/100;
+        var $totalfinal = (total - descuento);
+
+        console.log(descuento);
+        console.log($totalfinal);
+        //3 d
+        var pesos = 100;
+        var dolares = parseFloat(pesos / 82,06);
+        console.log(dolares);
+        //3 e
+        var factura = 1500;
+        var iva = (factura*21)/100;
+        console.log(iva);
+    </script>
+    
+</body>
+</html>
